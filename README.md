@@ -1,6 +1,7 @@
 # Art-Net Matrix
 Control a MAX7219 LED Matrix display over Art-Net DMX with a Wifi ESP8266/Arduino
 
+https://github.com/owenmcateer/Art-Net_Matrix/assets/1763300/f7448762-bc09-4e02-8eae-cb5caa6e6482
 
 ## Hardware requirements
 1) ESP8266 or Arduino with Wifi 
@@ -27,3 +28,9 @@ https://github.com/wayoda/LedControl
 **Author**: [Hideaki Tai](https://github.com/hideakitai)  
 Art-Net Sender/Receiver for Arduino (Ethernet, WiFi)  
 https://github.com/hideakitai/ArtNet
+
+## Media
+
+https://github.com/owenmcateer/Art-Net_Matrix/assets/1763300/163285dc-e675-460f-b8c8-ae971a60d2e8
+
+https://github.com/owenmcateer/Art-Net_Matrix/assets/1763300/afe1a585-9e61-401e-9ce2-2cbee89e7d72
