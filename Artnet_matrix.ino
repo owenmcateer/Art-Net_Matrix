@@ -31,7 +31,7 @@ int BRIGHTNESS = 1;
 int DIN = D6;
 int CS = D8;
 int CLK = D5;
-LedControl lc=LedControl(DIN, CLK, CS, 4);
+LedControl lc = LedControl(DIN, CLK, CS, 4);
 int WIDHT = 32;
 int HEIGHT = 8;
 int THRESHOLD = 127; // 0-255
@@ -69,9 +69,9 @@ void  setup() {
   artnet.subscribeArtDmxUniverse(net, subnet, universe, callback);
 
   // Setup Matrix
-  for(int i=0;i<4;i++){
+  for(int i = 0; i < 4; i++) {
     lc.shutdown(i, false);
-    lc.setScanLimit(i,7);
+    lc.setScanLimit(i, 7);
     lc.setIntensity(i, BRIGHTNESS);
     lc.clearDisplay(i);
   }
@@ -82,7 +82,6 @@ void loop() {
   // Listen for Art-Net data
   artnet.parse();
 }
-
 
 // Output ArtNet data to matrix
 void callback(const uint8_t *data, uint16_t size, const ArtDmxMetadata &metadata, const ArtNetRemoteInfo &remote) {
